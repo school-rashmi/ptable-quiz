@@ -48,16 +48,16 @@ else:
 
 # Questions and options
 questions = [
-    ("Party animal or solo wanderer?", ["Party animal :partying_face:", "Solo wanderer :person_in_lotus_position:"]),
-    ("Pressure or peace?", ["Can handle pressure :weight_lifter:", "Serene and steady :relieved:"]),
-    ("Attention or none?", ["Center of attention, always! :tada:", "Quiet observer :eyes:"]),
-    ("Dynamic or static?", ["Dynamic :fast_forward:", "Static :double_vertical_bar:"]),
-    ("Group or individual?", ["Team :handshake:", "Solo :technologist:"]),
-    ("Emotional or not?", ["Emotional :gift_heart:", "Monotonous :tv:"]),
-    ("Seeking knowledge?", ["Seeker :mag:", "Contented :brain:"]),
-    ("Trends or utility?", ["Trendy :dress:", "Comfort :tshirt:"]),
-    ("Open or private?", ["Open :unlock:", "Private :closed_lock_with_key:"]),
-    ("Restless or collected?", ["Energetic :zap:", "Collected :mountain:"])
+    ("Party animal or solo wanderer?", ["Party animal, the more the merrier! :partying_face:", "Solo wanderer, I spend time alone recharging :person_in_lotus_position:"]),
+    ("Pressure or peace?", ["Can handle pressure :weight_lifter:", "Serene and steady, those are the environments that I prefer :relieved:"]),
+    ("Attention or none?", ["Center of attention, always! :tada:", "Quiet, confident observer :eyes:"]),
+    ("Dynamic or static?", ["Dynamic, I easily adjust to new situations :fast_forward:", "Static, I stick to routines :double_vertical_bar:"]),
+    ("Group or individual?", ["Team player :handshake:", "Solo :technologist:"]),
+    ("Emotional or not?", ["Emotional, I experience emotions intensely :gift_heart:", "Monotonous, I stay calm and think before reacting :tv:"]),
+    ("Seeking knowledge?", ["Seeker, I like learning new things :mag:", "Contented, I'm happy with what I already know :brain:"]),
+    ("Trends or utility?", ["Trendy, I express myself through the latest trends :dress:", "Comfort, I prioritize comfort and utility over looks :tshirt:"]),
+    ("Open or private?", ["Open, I'm happy to share my thoughts and feelings :unlock:", "Private, I often keep to myself :closed_lock_with_key:"]),
+    ("Restless or collected?", ["Energetic, I live a fast-paced life :zap:", "Collected, I like taking things slow :mountain:"])
 ]
 
 # Display the current question
