@@ -85,37 +85,37 @@ with col3:
 
 # Check conditions based on answers
 def check_cond1():
-    return (st.session_state.answers[0] == "Party animal :partying_face:" and
+    return (st.session_state.answers[0] == "Party animal, the more the merrier! :partying_face:" and
             st.session_state.answers[2] == "Center of attention, always! :tada:" and
-            st.session_state.answers[7] == "Trendy :dress:" and
-            st.session_state.answers[8] == "Open :unlock:" and
-            st.session_state.answers[9] == "Energetic :zap:")
+            st.session_state.answers[7] == "Trendy, I express myself through the newest trends :dress:" and
+            st.session_state.answers[8] == "Open, I love sharing my thoughts and feelings :unlock:" and
+            st.session_state.answers[9] == "Energetic, I have a lot of energy and live a fast-paced life :zap:")
 
 def check_cond2():
     return (st.session_state.answers[1] == "Can handle pressure :weight_lifter:" and
-            st.session_state.answers[3] == "Dynamic :fast_forward:" and
-            st.session_state.answers[4] == "Team :handshake:")
+            st.session_state.answers[3] == "Dynamic, I live a fast-paced life :fast_forward:" and
+            st.session_state.answers[4] == "Team player :handshake:")
 
 def check_cond3():
-    return (st.session_state.answers[1] == "Serene and steady :relieved:" and
-            st.session_state.answers[4] == "Team :handshake:" and
-            st.session_state.answers[5] == "Emotional :gift_heart:")
+    return (st.session_state.answers[1] == "Serene and steady, those are the environments that I love :relieved:" and
+            st.session_state.answers[4] == "Team player :handshake:" and
+            st.session_state.answers[5] == "Emotional, I feel emotions intensely :gift_heart:")
 
 def check_cond4():
-    return (st.session_state.answers[3] == "Dynamic :fast_forward:" and
-            st.session_state.answers[6] == "Contented :brain:" and
-            st.session_state.answers[7] == "Trendy :dress:")
+    return (st.session_state.answers[3] == "Dynamic, I live a fast-paced life :fast_forward:" and
+            st.session_state.answers[6] == "Contented, I'm happy with what I already know :brain:" and
+            st.session_state.answers[7] == "Trendy, I express myself through the newest trends :dress:")
 
 def check_cond5():
     return (st.session_state.answers[3] == "Static :double_vertical_bar:" and
-            st.session_state.answers[6] == "Contented :brain:" and
-            st.session_state.answers[9] == "Collected :mountain:")
+            st.session_state.answers[6] == "Contented, I'm happy with what I already know :brain:" and
+            st.session_state.answers[9] == "Collected, I like relaxing and taking it slow :mountain:")
 
 def check_cond6():
-    return (st.session_state.answers[1] == "Serene and steady :relieved:" and
+    return (st.session_state.answers[1] == "Serene and steady, those are the environments that I love :relieved:" and
             st.session_state.answers[4] == "Solo :technologist:" and
-            st.session_state.answers[8] == "Private :closed_lock_with_key:" and
-            st.session_state.answers[9] == "Collected :mountain:")
+            st.session_state.answers[8] == "Private, I often keep to myself :closed_lock_with_key:" and
+            st.session_state.answers[9] == "Collected, I like relaxing and taking it slow :mountain:")
 
 if st.session_state.show_results:
     if check_cond1():
