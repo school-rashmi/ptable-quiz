@@ -181,12 +181,12 @@ if st.session_state.show_results:
             st.markdown("You're calm and collected, have **everything sorted out**, and hate drama!")
             st.balloons()
     else:
-        col1, col2 = st.columns([1, 1])
+        col1, col2 = st.columns([1, 2])
         with col1:
+            st.divider()
+        with col2:
             st.divider()
             st.image("ah-element-of-surprise.jpg", use_column_width=True)
             st.header("You're a mix!")
             st.markdown("You're **a mix** of many groups!")
             st.balloons()
-        with col2:
-            st.divider()
