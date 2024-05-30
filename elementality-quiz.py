@@ -186,7 +186,7 @@ if st.session_state.show_results:
             st.divider()
         with col2:
             st.divider()
-            st.image("ah-the-element-of-surprise.jpg", use_column_width=True)
+            st.image("ah-element-of-surprise.jpg", use_column_width=True)
             st.header("You're a mix!")
             st.markdown("You're **a mix** of many groups!")
             st.balloons()
