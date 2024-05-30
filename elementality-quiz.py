@@ -185,6 +185,7 @@ if st.session_state.show_results:
         with col1:
             st.divider()
         with col2:
+            st.divider()
             st.header("You're a mix!")
             st.markdown("You're **a mix** of many groups!")
             st.balloons()
