@@ -181,7 +181,7 @@ if st.session_state.show_results:
             st.markdown("You're calm and collected, have **everything sorted out**, and hate drama!")
             st.balloons()
     else:
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([1, 4])
         with col1:
             st.divider()
         with col2:
